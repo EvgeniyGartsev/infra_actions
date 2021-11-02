@@ -28,4 +28,4 @@ jobs:
         python -m flake8
         # перейдем в директорию с тестами
         cd infra_project
-        python manage.py tests
+        python manage.py test
