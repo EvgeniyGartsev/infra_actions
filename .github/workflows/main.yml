@@ -1,7 +1,6 @@
 name: Django-app workflow
 
 on: [push]
-# запуск задач
 jobs:
   tests:
     runs-on: ubuntu-latest
